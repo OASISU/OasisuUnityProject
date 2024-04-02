@@ -1,0 +1,1725 @@
+{
+  "pack": {
+    "_id": "nordic-forest",
+    "name": "Nordic Forest"
+  },
+  "tags": [
+    "surface",
+    "forest",
+    "moss",
+    "tyresta",
+    "sweden",
+    "saturated",
+    "vivid",
+    "colorful",
+    "orange",
+    "golden",
+    "gold",
+    "beige",
+    "brown",
+    "archviz"
+  ],
+  "previews": {
+    "images": [
+      {
+        "contentLength": 274639,
+        "resolution": "360x360",
+        "uri": "tjlpcb3r_Grid_360.png",
+        "tags": [
+          "thumb"
+        ]
+      },
+      {
+        "contentLength": 380154,
+        "resolution": "420x420",
+        "uri": "tjlpcb3r_Grid_420.png",
+        "tags": [
+          "thumb"
+        ]
+      },
+      {
+        "contentLength": 1123530,
+        "resolution": "720x720",
+        "uri": "tjlpcb3r_Grid_720.png",
+        "tags": [
+          "thumb",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 1537597,
+        "resolution": "840x840",
+        "uri": "tjlpcb3r_Grid_840.png",
+        "tags": [
+          "thumb",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 3335593,
+        "resolution": "1440x810",
+        "uri": "tjlpcb3r_PopupClay_1440.png",
+        "tags": [
+          "preview",
+          "clay"
+        ]
+      },
+      {
+        "contentLength": 5940844,
+        "resolution": "1920x1080",
+        "uri": "tjlpcb3r_PopupClay_1920.png",
+        "tags": [
+          "preview",
+          "clay"
+        ]
+      },
+      {
+        "contentLength": 13123601,
+        "resolution": "2880x1620",
+        "uri": "tjlpcb3r_PopupClay_2880.png",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 17716424,
+        "resolution": "3840x2160",
+        "uri": "tjlpcb3r_PopupClay_3840.png",
+        "tags": [
+          "preview",
+          "clay",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 3051711,
+        "resolution": "1440x810",
+        "uri": "tjlpcb3r_PopupTiled_1440.png",
+        "tags": [
+          "preview",
+          "tiled"
+        ]
+      },
+      {
+        "contentLength": 5529992,
+        "resolution": "1920x1080",
+        "uri": "tjlpcb3r_PopupTiled_1920.png",
+        "tags": [
+          "preview",
+          "tiled"
+        ]
+      },
+      {
+        "contentLength": 12425557,
+        "resolution": "2880x1620",
+        "uri": "tjlpcb3r_PopupTiled_2880.png",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 22102257,
+        "resolution": "3840x2160",
+        "uri": "tjlpcb3r_PopupTiled_3840.png",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 3158071,
+        "resolution": "1440x810",
+        "uri": "tjlpcb3r_Popup_1440.png",
+        "tags": [
+          "preview"
+        ]
+      },
+      {
+        "contentLength": 5669844,
+        "resolution": "1920x1080",
+        "uri": "tjlpcb3r_Popup_1920.png",
+        "tags": [
+          "preview"
+        ]
+      },
+      {
+        "contentLength": 12603496,
+        "resolution": "2880x1620",
+        "uri": "tjlpcb3r_Popup_2880.png",
+        "tags": [
+          "preview",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 22020491,
+        "resolution": "3840x2160",
+        "uri": "tjlpcb3r_Popup_3840.png",
+        "tags": [
+          "preview",
+          "retina"
+        ]
+      },
+      {
+        "contentLength": 614,
+        "resolution": "24x24",
+        "uri": "ka9xNWeCSjlAAAA/0lEQVQoz12S4ZaFIAiErSylQkPs/V91B2y3u3d+dE7zBQxpCL+aKEaawpe2uM83NO9x+/RpvvMQGL3+eudkuq6UgNY/P5sH2TO/hNzvV6+9d1AQ77bNqfcKiVRHILMliOmxXd065hwB9ssKpBQHtXqCHXtZgYiqFqjixedMgTDUfeWiRfDiNRSigVKY2Us8AUAEsAGw9QHivWIgD8TsCMwiJ2s1dZGiDaA4MYBW+M1HNWBkzBFbH3HDUvFpM3FTC2YzbMHtFOU2yJjS0+GHQqKPz8+W6TmSVXj43HyZ+h6IDp/VwOuj22mgeaqT/l2G5VArKMeyfV+UiZbl4/r8AICWGAXsbaahAAAAAElFTkSuQmCC",
+        "tags": [
+          "thumb",
+          "tiny"
+        ]
+      },
+      {
+        "contentLength": 51331,
+        "resolution": "360x360",
+        "uri": "tjlpcb3r_Grid_360_thumb.jpg",
+        "tags": [
+          "thumb",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 72593,
+        "resolution": "420x420",
+        "uri": "tjlpcb3r_Grid_420_thumb.jpg",
+        "tags": [
+          "thumb",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 228068,
+        "resolution": "720x720",
+        "uri": "tjlpcb3r_Grid_720_thumb.jpg",
+        "tags": [
+          "thumb",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 317602,
+        "resolution": "840x840",
+        "uri": "tjlpcb3r_Grid_840_thumb.jpg",
+        "tags": [
+          "thumb",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 741618,
+        "resolution": "1440x810",
+        "uri": "tjlpcb3r_PopupClay_1440_preview.jpg",
+        "tags": [
+          "preview",
+          "clay",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 1330060,
+        "resolution": "1920x1080",
+        "uri": "tjlpcb3r_PopupClay_1920_preview.jpg",
+        "tags": [
+          "preview",
+          "clay",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 2956261,
+        "resolution": "2880x1620",
+        "uri": "tjlpcb3r_PopupClay_2880_preview.jpg",
+        "tags": [
+          "preview",
+          "clay",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 5190405,
+        "resolution": "3840x2160",
+        "uri": "tjlpcb3r_PopupClay_3840_preview.jpg",
+        "tags": [
+          "preview",
+          "clay",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 657918,
+        "resolution": "1440x810",
+        "uri": "tjlpcb3r_PopupTiled_1440_preview.jpg",
+        "tags": [
+          "preview",
+          "tiled",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 1222628,
+        "resolution": "1920x1080",
+        "uri": "tjlpcb3r_PopupTiled_1920_preview.jpg",
+        "tags": [
+          "preview",
+          "tiled",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 2876827,
+        "resolution": "2880x1620",
+        "uri": "tjlpcb3r_PopupTiled_2880_preview.jpg",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 5203946,
+        "resolution": "3840x2160",
+        "uri": "tjlpcb3r_PopupTiled_3840_preview.jpg",
+        "tags": [
+          "preview",
+          "tiled",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 728809,
+        "resolution": "1440x810",
+        "uri": "tjlpcb3r_Popup_1440_preview.jpg",
+        "tags": [
+          "preview",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 1335215,
+        "resolution": "1920x1080",
+        "uri": "tjlpcb3r_Popup_1920_preview.jpg",
+        "tags": [
+          "preview",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 3059996,
+        "resolution": "2880x1620",
+        "uri": "tjlpcb3r_Popup_2880_preview.jpg",
+        "tags": [
+          "preview",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 5391500,
+        "resolution": "3840x2160",
+        "uri": "tjlpcb3r_Popup_3840_preview.jpg",
+        "tags": [
+          "preview",
+          "retina",
+          "jpeg"
+        ]
+      },
+      {
+        "contentLength": 486166,
+        "resolution": "1280x720",
+        "uri": "tjlpcb3r_Popup_3840_sp.jpg",
+        "tags": [
+          "jpeg",
+          "sidepanel"
+        ]
+      }
+    ],
+    "scaleReferences": [],
+    "relativeSize": "1x1"
+  },
+  "environment": {
+    "biome": "undefined",
+    "region": "undefined"
+  },
+  "maps": [
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "AO",
+      "resolution": "1024x1024",
+      "contentLength": 4195219,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_AO.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "AO",
+      "resolution": "1024x1024",
+      "contentLength": 1044470,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_AO.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 18,
+      "bitDepth": 16,
+      "name": "Albedo",
+      "resolution": "1024x1024",
+      "contentLength": 12584522,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_Albedo.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 18,
+      "bitDepth": 8,
+      "name": "Albedo",
+      "resolution": "1024x1024",
+      "contentLength": 1642597,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_Albedo.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "Bump",
+      "resolution": "1024x1024",
+      "contentLength": 4195219,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Bump.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "Bump",
+      "resolution": "1024x1024",
+      "contentLength": 807423,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Bump.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 255,
+      "bitDepth": 32,
+      "name": "Cavity",
+      "resolution": "1024x1024",
+      "contentLength": 4195219,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_Cavity.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 255,
+      "bitDepth": 8,
+      "name": "Cavity",
+      "resolution": "1024x1024",
+      "contentLength": 853328,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_Cavity.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 116,
+      "bitDepth": 32,
+      "name": "Displacement",
+      "resolution": "1024x1024",
+      "contentLength": 3831200,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Displacement.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 116,
+      "bitDepth": 8,
+      "name": "Displacement",
+      "resolution": "1024x1024",
+      "contentLength": 331673,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Displacement.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 14,
+      "bitDepth": 32,
+      "name": "Gloss",
+      "resolution": "1024x1024",
+      "contentLength": 4195219,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Gloss.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 14,
+      "bitDepth": 8,
+      "name": "Gloss",
+      "resolution": "1024x1024",
+      "contentLength": 668983,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Gloss.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 47,
+      "bitDepth": 16,
+      "name": "Normal",
+      "resolution": "1024x1024",
+      "contentLength": 12362212,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Normal.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 47,
+      "bitDepth": 8,
+      "name": "Normal",
+      "resolution": "1024x1024",
+      "contentLength": 2520400,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Normal.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 167,
+      "bitDepth": 32,
+      "name": "Roughness",
+      "resolution": "1024x1024",
+      "contentLength": 4053314,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Roughness.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 167,
+      "bitDepth": 8,
+      "name": "Roughness",
+      "resolution": "1024x1024",
+      "contentLength": 644435,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_1K_Roughness.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 56,
+      "bitDepth": 16,
+      "name": "Specular",
+      "resolution": "1024x1024",
+      "contentLength": 10760945,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_Specular.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 56,
+      "bitDepth": 8,
+      "name": "Specular",
+      "resolution": "1024x1024",
+      "contentLength": 545386,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_1K_Specular.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "AO",
+      "resolution": "2048x2048",
+      "contentLength": 16778643,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_AO.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "AO",
+      "resolution": "2048x2048",
+      "contentLength": 3943967,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_AO.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 18,
+      "bitDepth": 16,
+      "name": "Albedo",
+      "resolution": "2048x2048",
+      "contentLength": 48283974,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_Albedo.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 18,
+      "bitDepth": 8,
+      "name": "Albedo",
+      "resolution": "2048x2048",
+      "contentLength": 6454719,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_Albedo.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "Bump",
+      "resolution": "2048x2048",
+      "contentLength": 16096539,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Bump.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "Bump",
+      "resolution": "2048x2048",
+      "contentLength": 3103168,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Bump.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 255,
+      "bitDepth": 32,
+      "name": "Cavity",
+      "resolution": "2048x2048",
+      "contentLength": 16382573,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_Cavity.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 255,
+      "bitDepth": 8,
+      "name": "Cavity",
+      "resolution": "2048x2048",
+      "contentLength": 3639418,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_Cavity.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 116,
+      "bitDepth": 32,
+      "name": "Displacement",
+      "resolution": "2048x2048",
+      "contentLength": 13938661,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Displacement.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 116,
+      "bitDepth": 8,
+      "name": "Displacement",
+      "resolution": "2048x2048",
+      "contentLength": 979685,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Displacement.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 14,
+      "bitDepth": 32,
+      "name": "Gloss",
+      "resolution": "2048x2048",
+      "contentLength": 16296276,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Gloss.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 14,
+      "bitDepth": 8,
+      "name": "Gloss",
+      "resolution": "2048x2048",
+      "contentLength": 2646723,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Gloss.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 47,
+      "bitDepth": 16,
+      "name": "Normal",
+      "resolution": "2048x2048",
+      "contentLength": 46768850,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Normal.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 47,
+      "bitDepth": 8,
+      "name": "Normal",
+      "resolution": "2048x2048",
+      "contentLength": 9895532,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Normal.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 167,
+      "bitDepth": 32,
+      "name": "Roughness",
+      "resolution": "2048x2048",
+      "contentLength": 15249313,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Roughness.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 167,
+      "bitDepth": 8,
+      "name": "Roughness",
+      "resolution": "2048x2048",
+      "contentLength": 2551481,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_2K_Roughness.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 56,
+      "bitDepth": 16,
+      "name": "Specular",
+      "resolution": "2048x2048",
+      "contentLength": 44071527,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_Specular.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 56,
+      "bitDepth": 8,
+      "name": "Specular",
+      "resolution": "2048x2048",
+      "contentLength": 2515543,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_2K_Specular.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "AO",
+      "resolution": "4096x4096",
+      "contentLength": 63517896,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_AO.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "AO",
+      "resolution": "4096x4096",
+      "contentLength": 15133637,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_AO.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 18,
+      "bitDepth": 16,
+      "name": "Albedo",
+      "resolution": "4096x4096",
+      "contentLength": 185960342,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_Albedo.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 18,
+      "bitDepth": 8,
+      "name": "Albedo",
+      "resolution": "4096x4096",
+      "contentLength": 25267624,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_Albedo.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "Bump",
+      "resolution": "4096x4096",
+      "contentLength": 58372411,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Bump.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "Bump",
+      "resolution": "4096x4096",
+      "contentLength": 10332270,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Bump.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 255,
+      "bitDepth": 32,
+      "name": "Cavity",
+      "resolution": "4096x4096",
+      "contentLength": 62061241,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_Cavity.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 255,
+      "bitDepth": 8,
+      "name": "Cavity",
+      "resolution": "4096x4096",
+      "contentLength": 15343045,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_Cavity.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 116,
+      "bitDepth": 32,
+      "name": "Displacement",
+      "resolution": "4096x4096",
+      "contentLength": 50230606,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Displacement.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 116,
+      "bitDepth": 8,
+      "name": "Displacement",
+      "resolution": "4096x4096",
+      "contentLength": 3109496,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Displacement.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 14,
+      "bitDepth": 32,
+      "name": "Gloss",
+      "resolution": "4096x4096",
+      "contentLength": 61115324,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Gloss.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 14,
+      "bitDepth": 8,
+      "name": "Gloss",
+      "resolution": "4096x4096",
+      "contentLength": 10766555,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Gloss.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 47,
+      "bitDepth": 16,
+      "name": "Normal",
+      "resolution": "4096x4096",
+      "contentLength": 177341000,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Normal.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 47,
+      "bitDepth": 8,
+      "name": "Normal",
+      "resolution": "4096x4096",
+      "contentLength": 37375083,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Normal.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 167,
+      "bitDepth": 32,
+      "name": "Roughness",
+      "resolution": "4096x4096",
+      "contentLength": 56873905,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Roughness.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 167,
+      "bitDepth": 8,
+      "name": "Roughness",
+      "resolution": "4096x4096",
+      "contentLength": 10372411,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_4K_Roughness.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 56,
+      "bitDepth": 16,
+      "name": "Specular",
+      "resolution": "4096x4096",
+      "contentLength": 180513842,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_Specular.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 56,
+      "bitDepth": 8,
+      "name": "Specular",
+      "resolution": "4096x4096",
+      "contentLength": 11217526,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_4K_Specular.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "AO",
+      "resolution": "8192x8192",
+      "contentLength": 233469929,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_AO.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "AO",
+      "resolution": "8192x8192",
+      "contentLength": 53999746,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_AO.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "ao",
+      "averageColor": "#909090"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 18,
+      "bitDepth": 16,
+      "name": "Albedo",
+      "resolution": "8192x8192",
+      "contentLength": 669007644,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_Albedo.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 18,
+      "bitDepth": 8,
+      "name": "Albedo",
+      "resolution": "8192x8192",
+      "contentLength": 82575757,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_Albedo.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 132,
+      "type": "albedo",
+      "averageColor": "#4F420B"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 0,
+      "bitDepth": 32,
+      "name": "Bump",
+      "resolution": "8192x8192",
+      "contentLength": 210427835,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Bump.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 0,
+      "bitDepth": 8,
+      "name": "Bump",
+      "resolution": "8192x8192",
+      "contentLength": 29314875,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Bump.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "bump",
+      "averageColor": "#808080"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 255,
+      "bitDepth": 32,
+      "name": "Cavity",
+      "resolution": "8192x8192",
+      "contentLength": 217449534,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_Cavity.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 255,
+      "bitDepth": 8,
+      "name": "Cavity",
+      "resolution": "8192x8192",
+      "contentLength": 58560566,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_Cavity.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 255,
+      "type": "cavity",
+      "averageColor": "#FFFFFF"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 116,
+      "bitDepth": 32,
+      "name": "Displacement",
+      "resolution": "8192x8192",
+      "contentLength": 181319190,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Displacement.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 116,
+      "bitDepth": 8,
+      "name": "Displacement",
+      "resolution": "8192x8192",
+      "contentLength": 9987423,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Displacement.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 133,
+      "type": "displacement",
+      "averageColor": "#818181"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 14,
+      "bitDepth": 32,
+      "name": "Gloss",
+      "resolution": "8192x8192",
+      "contentLength": 193459985,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Gloss.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 14,
+      "bitDepth": 8,
+      "name": "Gloss",
+      "resolution": "8192x8192",
+      "contentLength": 42367076,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Gloss.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 88,
+      "type": "gloss",
+      "averageColor": "#313131"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 47,
+      "bitDepth": 16,
+      "name": "Normal",
+      "resolution": "8192x8192",
+      "contentLength": 668013015,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Normal.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 47,
+      "bitDepth": 8,
+      "name": "Normal",
+      "resolution": "8192x8192",
+      "contentLength": 126726771,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Normal.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 215,
+      "type": "normal",
+      "averageColor": "#7E74D9"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 167,
+      "bitDepth": 32,
+      "name": "Roughness",
+      "resolution": "8192x8192",
+      "contentLength": 179419881,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Roughness.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 167,
+      "bitDepth": 8,
+      "name": "Roughness",
+      "resolution": "8192x8192",
+      "contentLength": 40778890,
+      "colorSpace": "Linear",
+      "uri": "tjlpcb3r_8K_Roughness.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 241,
+      "type": "roughness",
+      "averageColor": "#CECECE"
+    },
+    {
+      "mimeType": "image/x-exr",
+      "minIntensity": 56,
+      "bitDepth": 16,
+      "name": "Specular",
+      "resolution": "8192x8192",
+      "contentLength": 644139295,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_Specular.exr",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "minIntensity": 56,
+      "bitDepth": 8,
+      "name": "Specular",
+      "resolution": "8192x8192",
+      "contentLength": 41232045,
+      "colorSpace": "sRGB",
+      "uri": "tjlpcb3r_8K_Specular.jpg",
+      "physicalSize": "4x4",
+      "maxIntensity": 56,
+      "type": "specular",
+      "averageColor": "#383838"
+    }
+  ],
+  "json": {
+    "contentLength": 29748,
+    "uri": "tjlpcb3r.json"
+  },
+  "points": 2,
+  "meta": [
+    {
+      "key": "scanArea",
+      "name": "Scan Area",
+      "value": "4x4 m"
+    },
+    {
+      "key": "height",
+      "name": "Height",
+      "value": "0.013 m"
+    },
+    {
+      "key": "tileable",
+      "name": "Tileable",
+      "value": true
+    },
+    {
+      "key": "texelDensity",
+      "name": "Texel Density",
+      "value": "2048 px/m"
+    },
+    {
+      "key": "calibration",
+      "name": "Calibration",
+      "value": "GretagMacbeth ColorChecker Color Rendition Chart"
+    },
+    {
+      "key": "scanner",
+      "name": "Scanner",
+      "value": "MKX"
+    }
+  ],
+  "categories": [
+    "surface",
+    "moss",
+    "rock"
+  ],
+  "version": 2,
+  "references": [],
+  "referencePreviews": {
+    "maps": [
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 1044470,
+        "type": "ao",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 1642597,
+        "type": "albedo",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 807423,
+        "type": "bump",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 853328,
+        "type": "cavity",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 331673,
+        "type": "displacement",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 668983,
+        "type": "gloss",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 2520400,
+        "type": "normal",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 644435,
+        "type": "roughness",
+        "uri": ""
+      },
+      {
+        "mimeType": "image/jpeg",
+        "resolution": "1024x1024",
+        "contentLength": 545386,
+        "type": "specular",
+        "uri": ""
+      }
+    ]
+  },
+  "properties": [],
+  "averageColor": "#4F420B",
+  "name": "Forest Moss",
+  "revision": 0,
+  "assetCategories": {
+    "surface": {
+      "moss": {
+        "ground": {}
+      }
+    }
+  },
+  "semanticTags": {
+    "subject_matter": "nature",
+    "name": "Forest Moss",
+    "asset_type": "surface",
+    "contains": [
+      "moss",
+      "ground",
+      "weeds"
+    ],
+    "theme": [
+      "forest",
+      " tyresta",
+      " sweden",
+      " nordic",
+      "ground"
+    ],
+    "descriptive": [
+      "mossy",
+      " damp",
+      " rough"
+    ],
+    "environment": [
+      "forest biome"
+    ],
+    "interior_exterior": [],
+    "orientation": [],
+    "architectural_style": {},
+    "state": [
+      "old"
+    ],
+    "city": [],
+    "color": [
+      "gold",
+      "orange",
+      "brown"
+    ],
+    "industry": [
+      "VFX",
+      "archviz",
+      "games"
+    ],
+    "3d_mesh": [],
+    "resolution": 8192,
+    "locations": {
+      "Europe": {
+        "Sweden": {}
+      }
+    },
+    "maxSize": 4,
+    "minSize": 4
+  },
+  "uasset": [
+    {
+      "type": "material",
+      "ueVersion": "5.0.0",
+      "tier": 0,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier0/MI_Forest_Moss_tjlpcb3r_8K.uasset"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 0,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier0/T_ForestMoss_tjlpcb3r_8K_ORDp.uasset",
+      "sub-type": "ard"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 0,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier0/T_Forest_Moss_tjlpcb3r_8K_D.uasset",
+      "sub-type": "albedo"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 0,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier0/T_Forest_Moss_tjlpcb3r_8K_N.uasset",
+      "sub-type": "normal"
+    },
+    {
+      "type": "meta",
+      "ueVersion": "5.0.0",
+      "tier": 0,
+      "mimeType": "json",
+      "uri": "UAsset/Tier0/tjlpcb3r_0.json"
+    },
+    {
+      "type": "material",
+      "ueVersion": "5.0.0",
+      "tier": 1,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier1/MI_Forest_Moss_tjlpcb3r_4K.uasset"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 1,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier1/T_ForestMoss_tjlpcb3r_4K_ORDp.uasset",
+      "sub-type": "ard"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 1,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier1/T_Forest_Moss_tjlpcb3r_4K_D.uasset",
+      "sub-type": "albedo"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 1,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier1/T_Forest_Moss_tjlpcb3r_4K_N.uasset",
+      "sub-type": "normal"
+    },
+    {
+      "type": "meta",
+      "ueVersion": "5.0.0",
+      "tier": 1,
+      "mimeType": "json",
+      "uri": "UAsset/Tier1/tjlpcb3r_1.json"
+    },
+    {
+      "type": "material",
+      "ueVersion": "5.0.0",
+      "tier": 2,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier2/MI_Forest_Moss_tjlpcb3r_2K.uasset"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 2,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier2/T_ForestMoss_tjlpcb3r_2K_ORDp.uasset",
+      "sub-type": "ard"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 2,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier2/T_Forest_Moss_tjlpcb3r_2K_D.uasset",
+      "sub-type": "albedo"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 2,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier2/T_Forest_Moss_tjlpcb3r_2K_N.uasset",
+      "sub-type": "normal"
+    },
+    {
+      "type": "meta",
+      "ueVersion": "5.0.0",
+      "tier": 2,
+      "mimeType": "json",
+      "uri": "UAsset/Tier2/tjlpcb3r_2.json"
+    },
+    {
+      "type": "material",
+      "ueVersion": "5.0.0",
+      "tier": 3,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier3/MI_Forest_Moss_tjlpcb3r_1K.uasset"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 3,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier3/T_ForestMoss_tjlpcb3r_1K_ORDp.uasset",
+      "sub-type": "ard"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 3,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier3/T_Forest_Moss_tjlpcb3r_1K_D.uasset",
+      "sub-type": "albedo"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 3,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier3/T_Forest_Moss_tjlpcb3r_1K_N.uasset",
+      "sub-type": "normal"
+    },
+    {
+      "type": "meta",
+      "ueVersion": "5.0.0",
+      "tier": 3,
+      "mimeType": "json",
+      "uri": "UAsset/Tier3/tjlpcb3r_3.json"
+    },
+    {
+      "type": "material",
+      "ueVersion": "5.0.0",
+      "tier": 4,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier4/MI_Forest_Moss_tjlpcb3r_1K.uasset"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 4,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier4/T_Forest_Moss_tjlpcb3r_1K_D.uasset",
+      "sub-type": "albedo"
+    },
+    {
+      "type": "map",
+      "ueVersion": "5.0.0",
+      "tier": 4,
+      "mimeType": "uasset",
+      "uri": "UAsset/Tier4/T_Forest_Moss_tjlpcb3r_1K_N.uasset",
+      "sub-type": "normal"
+    },
+    {
+      "type": "meta",
+      "ueVersion": "5.0.0",
+      "tier": 4,
+      "mimeType": "json",
+      "uri": "UAsset/Tier4/tjlpcb3r_4.json"
+    }
+  ],
+  "comp_version": 1,
+  "revised": false,
+  "id": "tjlpcb3r",
+  "physicalSize": null
+}
