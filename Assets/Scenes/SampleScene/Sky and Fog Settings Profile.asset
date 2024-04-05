@@ -192,7 +192,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.78930813, b: 0.8244947, a: 1}
+    m_Value: {r: 2, g: 1.5764706, b: 1.6470588, a: 1}
   maxFogDistance:
     m_OverrideState: 1
     m_Value: 6095.2
@@ -207,7 +207,7 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: -7.8
+    m_Value: 58.26
   maximumHeight:
     m_OverrideState: 1
     m_Value: 211.9
@@ -219,7 +219,7 @@ MonoBehaviour:
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
