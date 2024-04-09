@@ -207,7 +207,7 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: -14
+    m_Value: 417.5
   maximumHeight:
     m_OverrideState: 1
     m_Value: 435.3
@@ -268,7 +268,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.6
+    m_Value: -0.67
   contrast:
     m_OverrideState: 1
     m_Value: 30.9
