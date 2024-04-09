@@ -192,10 +192,10 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 2, g: 1.8318638, b: 1.5811518, a: 1}
+    m_Value: {r: 1.8443027, g: 1.2552845, b: 2.1146717, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 1500
+    m_Value: 500
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -207,19 +207,19 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 417.5
+    m_Value: 50
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 435.3
+    m_Value: 100
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 119
+    m_Value: 150
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.6055727, g: 0.4721727, b: 0.8679245, a: 1}
+    m_Value: {r: 0.654902, g: 0.44705883, b: 0.7490196, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
@@ -268,10 +268,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: -0.67
+    m_Value: 0.4
   contrast:
     m_OverrideState: 1
-    m_Value: 30.9
+    m_Value: 25
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -280,7 +280,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 29.1
+    m_Value: 29
 --- !u!114 &-2316890836211467672
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -296,7 +296,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 2.4
+    m_Value: 5
   tint:
     m_OverrideState: 1
     m_Value: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
     m_Value: 0.5
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.9025157, b: 0.9693076, a: 1}
   dirtTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
@@ -514,10 +514,10 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 12.3
+    m_Value: 12.123
   compensation:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.2
   limitMin:
     m_OverrideState: 1
     m_Value: -1
