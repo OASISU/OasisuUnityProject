@@ -40,6 +40,9 @@ ModelImporter:
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: Event AnimationStart has a time (0.000000) outside the
+      clip's valid range (0.633333..5.166667). It will never be firedEvent AnimationStart
+      has a time (0.000000) outside the clip's valid range (0.633333..5.166667).
+      It will never be firedEvent AnimationEnd has a time (6.561971) outside the
       clip's valid range (0.633333..5.166667). It will never be firedEvent AnimationEnd
       has a time (6.625921) outside the clip's valid range (0.633333..5.166667).
       It will never be fired
@@ -115,7 +118,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 200
+    globalScale: 20
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -169,7 +172,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 200
+    globalScale: 0.19999999
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1

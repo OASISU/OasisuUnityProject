@@ -99,7 +99,7 @@ public class PulseMsgListener : MonoBehaviour
     void ShowObjectBasedOnAverage(float average)
     {
         int index = -1;
-        if (average < 320) index = 0;
+        if (average < 320) index = 2;
         else if (average >= 320 && average < 340) index = 1;
         else if (average >= 340 && average < 360) index = 2;
         else if (average >= 360 && average < 380) index = 3;

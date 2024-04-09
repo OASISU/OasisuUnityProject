@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d877ec3e844f2ca46830012e8e79319b, type: 3}
   m_Name: PhysicallyBasedSky
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   rotation:
     m_OverrideState: 1
     m_Value: 0
@@ -192,10 +192,10 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 2, g: 1.5764706, b: 1.6470588, a: 1}
+    m_Value: {r: 2, g: 1.8318638, b: 1.5811518, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 6095.2
+    m_Value: 1500
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -207,19 +207,19 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 58.26
+    m_Value: -14
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 211.9
+    m_Value: 435.3
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 268.25
+    m_Value: 119
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
+    m_Value: {r: 0.6055727, g: 0.4721727, b: 0.8679245, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
@@ -252,6 +252,53 @@ MonoBehaviour:
     m_Value: 0.5
   directionalLightsOnly:
     m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-3013196159344267093
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 1
+    m_Value: 0.6
+  contrast:
+    m_OverrideState: 1
+    m_Value: 30.9
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 1
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 29.1
+--- !u!114 &-2316890836211467672
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b51a78e223a2e504bb88a059b55229ea, type: 3}
+  m_Name: WhiteBalance
+  m_EditorClassIdentifier: 
+  active: 1
+  temperature:
+    m_OverrideState: 1
+    m_Value: 2.4
+  tint:
+    m_OverrideState: 1
     m_Value: 0
 --- !u!114 &-756447328339736187
 MonoBehaviour:
@@ -319,6 +366,9 @@ MonoBehaviour:
   - {fileID: 6871183830013643798}
   - {fileID: -756447328339736187}
   - {fileID: 4835347582971059285}
+  - {fileID: 5343147614638687114}
+  - {fileID: -3013196159344267093}
+  - {fileID: -2316890836211467672}
 --- !u!114 &2807600805698894567
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -346,10 +396,10 @@ MonoBehaviour:
     m_Value: 1
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 1.8438535
+    m_Value: 4.756438
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.3798478, y: 0.2976187, z: 0.5}
+    m_Value: {x: 0.5, y: 0.47929007, z: 0.48667362}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -364,7 +414,7 @@ MonoBehaviour:
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
-    m_Value: {fileID: 8900000, guid: 5d63c09804dc42648adc034b89443351, type: 3}
+    m_Value: {fileID: 8900000, guid: a9e540ac5b478564d8eb613663a2f6cb, type: 3}
   distortionMode:
     m_OverrideState: 0
     m_Value: 0
@@ -464,7 +514,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 12.3
   compensation:
     m_OverrideState: 1
     m_Value: 0.1
@@ -591,6 +641,52 @@ MonoBehaviour:
   proceduralSoftness:
     m_OverrideState: 1
     m_Value: 0.5
+--- !u!114 &5343147614638687114
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf384b154398e341b6b29969c078198, type: 3}
+  m_Name: MotionBlur
+  m_EditorClassIdentifier: 
+  active: 1
+  quality:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 243.78
+  maximumVelocity:
+    m_OverrideState: 1
+    m_Value: 0
+  minimumVelocity:
+    m_OverrideState: 1
+    m_Value: 6.8
+  cameraMotionBlur:
+    m_OverrideState: 0
+    m_Value: 1
+  specialCameraClampMode:
+    m_OverrideState: 0
+    m_Value: 0
+  cameraVelocityClamp:
+    m_OverrideState: 0
+    m_Value: 0.05
+  cameraTranslationVelocityClamp:
+    m_OverrideState: 0
+    m_Value: 0.05
+  cameraRotationVelocityClamp:
+    m_OverrideState: 0
+    m_Value: 0.03
+  depthComparisonExtent:
+    m_OverrideState: 0
+    m_Value: 1
+  m_SampleCount:
+    m_OverrideState: 1
+    m_Value: 8
 --- !u!114 &6871183830013643798
 MonoBehaviour:
   m_ObjectHideFlags: 3

@@ -5,10 +5,17 @@ using UnityEngine;
 public class AnimationController : MonoBehaviour
 {
     private Animator animator;
-
+    // AudioSource 컴포넌트에 대한 참조 추가
+    public AudioSource audioSource;
+    private bool animationPlaying = false;
     void Start()
     {
         animator = GetComponent<Animator>();
+        // AudioSource 컴포넌트를 자동으로 찾아 할당
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
     }
 
     public void OnMessageArrived(string msg)
@@ -22,8 +29,19 @@ public class AnimationController : MonoBehaviour
             bool isTouched = animator.GetBool("isTouched");
             animator.SetBool("isTouched", !isTouched);
 
-            // 여기서 추가적인 상태 변경은 필요 없습니다.
+            // 오디오 재생
+            if (audioSource != null)
+            {
+                audioSource.Play();
+                StartCoroutine(StopAudioAfterTime(2)); // 2초 후 오디오 중지
+            }
+
         }
+    }
+    IEnumerator StopAudioAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        audioSource.Stop();
     }
 
     public void AnimationStart()
