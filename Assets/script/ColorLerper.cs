@@ -5,32 +5,15 @@ using UnityEngine;
 public class ColorLerper : MonoBehaviour
 {
 
-    public float speed = 1.0f;
-    public Color startColor;
-    public Color endColor;
-    public bool repeatable = false;
-    float startTime;
+    public Material WhiteMaterial;
+    public Material DarkBlackMaterial;
+    public GameObject Object;
 
-    void Start()
+    void OnCollisionEnter(Collision Current)
     {
-        startTime = Time.time;
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (repeatable)
-        {
-            float t = (Time.time - startTime) * speed;
-            GetComponent<Renderer>().material.color = Color.Lerp(startColor, endColor, t);
-            
-        }
-        else
-        {
-            float t = (Mathf.Sin(Time.time - startTime) * speed);
-            GetComponent<Renderer>().material.color = Color.Lerp(startColor, endColor, t);
-        }
-        
+        var renderer = Object.GetComponent<MeshRenderer>();
+        Material[] materials = renderer.sharedMaterials; // read current array of materials
+        materials[0] = WhiteMaterial;
+        renderer.sharedMaterials = materials; // assign the array back to the property to actually apply the changes
     }
 }
