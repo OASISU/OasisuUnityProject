@@ -180,7 +180,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   enabled:
     m_OverrideState: 1
     m_Value: 1
@@ -246,10 +246,10 @@ MonoBehaviour:
     m_Value: 64
   m_VolumetricFogBudget:
     m_OverrideState: 1
-    m_Value: 0.166
+    m_Value: 0.666
   m_ResolutionDepthRatio:
     m_OverrideState: 1
-    m_Value: 0.666
+    m_Value: 0.5
   directionalLightsOnly:
     m_OverrideState: 0
     m_Value: 0
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_Value: 0.6
   intensity:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.51
   scatter:
     m_OverrideState: 1
     m_Value: 0.2
@@ -514,7 +514,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 12.2
   compensation:
     m_OverrideState: 1
     m_Value: 0.2
@@ -656,7 +656,7 @@ MonoBehaviour:
   active: 1
   quality:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   intensity:
     m_OverrideState: 1
     m_Value: 243.78
@@ -686,7 +686,7 @@ MonoBehaviour:
     m_Value: 1
   m_SampleCount:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 12
 --- !u!114 &6871183830013643798
 MonoBehaviour:
   m_ObjectHideFlags: 3
