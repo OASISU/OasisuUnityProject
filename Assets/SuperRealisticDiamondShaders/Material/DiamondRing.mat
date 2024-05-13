@@ -90,7 +90,7 @@ Material:
     - DispersionG: 0.45
     - DispersionIntensity: 1
     - DispersionR: 0.133
-    - MipLevel: 0
+    - MipLevel: 3.92
     - PostExposure: 1.14
     - Power: 1
     - Spec: 0.4
