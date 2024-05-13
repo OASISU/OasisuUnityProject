@@ -5,7 +5,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -9205504352849468099, guid: b77c08941d29ffd43a30566f11ed4165, type: 3}
@@ -405,53 +404,12 @@ PrefabInstance:
       value: 0.0043716934
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b77c08941d29ffd43a30566f11ed4165, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3475809305601919982}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b77c08941d29ffd43a30566f11ed4165, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 380511563091594907}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b77c08941d29ffd43a30566f11ed4165, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8293697540344589646}
   m_SourcePrefab: {fileID: 100100000, guid: b77c08941d29ffd43a30566f11ed4165, type: 3}
 --- !u!1 &6180225283070623365 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b77c08941d29ffd43a30566f11ed4165, type: 3}
   m_PrefabInstance: {fileID: 6414810284434834388}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3475809305601919982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6180225283070623365}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  portName: COM7
-  baudRate: 9600
-  messageListener: {fileID: 6180225283070623365}
-  reconnectionDelay: 1000
-  maxUnreadMessages: 1
---- !u!114 &380511563091594907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6180225283070623365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c9df4b6bc56e734ea212abb356d8dc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &8293697540344589646
 Animator:
   serializedVersion: 5
@@ -473,3 +431,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &380511563091594907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6180225283070623365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9df4b6bc56e734ea212abb356d8dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+--- !u!114 &3475809305601919982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6180225283070623365}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portName: COM7
+  baudRate: 9600
+  messageListener: {fileID: 6180225283070623365}
+  reconnectionDelay: 1000
+  maxUnreadMessages: 1
