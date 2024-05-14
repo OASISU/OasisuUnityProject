@@ -207,13 +207,13 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 40
   maximumHeight:
     m_OverrideState: 1
     m_Value: 100
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 500
+    m_Value: 182
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
@@ -318,10 +318,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.6
+    m_Value: 0.7
   intensity:
     m_OverrideState: 1
-    m_Value: 0.51
+    m_Value: 0.86
   scatter:
     m_OverrideState: 1
     m_Value: 0.2

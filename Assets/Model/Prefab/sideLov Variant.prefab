@@ -13,15 +13,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5139206
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5139206
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5139206
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,6 +62,10 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8088146652445435048, guid: 265450961d545a34ba5bd0f0e525b3fa, type: 3}
       propertyPath: m_DirtyAABB
