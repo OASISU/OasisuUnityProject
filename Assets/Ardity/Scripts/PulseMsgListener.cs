@@ -30,7 +30,10 @@ public class PulseMsgListener : MonoBehaviour
     private bool animationPlaying = false;
 
     //VFX
-    public VisualEffect visualEffect;
+    public GameObject visualEffect;
+
+    //Cinemachine Dolly Cart
+    public GameObject track;
 
     void Update()
     {
@@ -51,8 +54,7 @@ public class PulseMsgListener : MonoBehaviour
     }
     void Start()
     {
-
-
+        
         // "PulseFlower" 오브젝트들의 Animator를 별도로 저장
         for (int i = 1; i <= 5; i++)
         {
@@ -125,7 +127,12 @@ public class PulseMsgListener : MonoBehaviour
                 StartCoroutine(FadeLight(0.2f, 1f));
 
                 //VFX 시작
-                visualEffect.SendEvent("Oasisu");
+                visualEffect.gameObject.SetActive(true);
+
+                //Cart 시작
+                track.gameObject.SetActive(true);
+
+
                 //하트 애니메이션 시작
                 if (heart0 != null)
                 {
@@ -189,6 +196,8 @@ public class PulseMsgListener : MonoBehaviour
     void ShowObjectBasedOnAverage(float average)
     {
         StartCoroutine(FadeLight(79793.78f, 1f)); // 조명을 다시 밝게 함
+        
+        
 
         int index = -1;
         if (average < 320)
@@ -260,6 +269,8 @@ public class PulseMsgListener : MonoBehaviour
 
         // 지정된 시간이 지난 후 오브젝트를 숨깁니다.
         SetObjectAndChildrenVisibility(objectName, false);
+        //VFX 종료
+        visualEffect.gameObject.SetActive(false);
         // 꽃 애니메이션 처음으로 되돌려놓기
         foreach (Animator animator in pulseFlowerAnimators)
         {
@@ -277,6 +288,8 @@ public class PulseMsgListener : MonoBehaviour
 
         // 지정된 시간이 지난 후 오브젝트를 숨깁니다.
         SetObjectAndChildrenVisibility(objectName, false);
+        //VFX 종료
+        visualEffect.gameObject.SetActive(false);
         // 꽃 애니메이션 처음으로 되돌려놓기
         foreach (Animator animator in textFlowerAnimators)
         {
