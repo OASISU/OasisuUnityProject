@@ -35,11 +35,12 @@ public class PulseMsgListener : MonoBehaviour
     public GameObject visualEffect3;
     public GameObject visualEffect4;
     public GameObject visualEffect5;
-    public GameObject visualEffect6;
-    public GameObject visualEffect7;
+    //public GameObject visualEffect6;
+    //public GameObject visualEffect7;
 
     //Cinemachine Dolly Cart
     public GameObject track;
+    public GameObject track2;
 
     void Update()
     {
@@ -139,11 +140,12 @@ public class PulseMsgListener : MonoBehaviour
                 visualEffect3.gameObject.SetActive(true);
                 visualEffect4.gameObject.SetActive(true);
                 visualEffect5.gameObject.SetActive(true);
-                visualEffect6.gameObject.SetActive(true);
+                //visualEffect6.gameObject.SetActive(true);
 
 
                 //Cart 시작
                 track.gameObject.SetActive(true);
+                track2.gameObject.SetActive(true);
 
 
 
@@ -197,10 +199,12 @@ public class PulseMsgListener : MonoBehaviour
         visualEffect3.gameObject.SetActive(false);
         visualEffect4.gameObject.SetActive(false);
         visualEffect5.gameObject.SetActive(false);
-        visualEffect6.gameObject.SetActive(false);
+        //visualEffect6.gameObject.SetActive(false);
 
         //CART 종료
         track.gameObject.SetActive(false);
+        track2.gameObject.SetActive(false);
+
         //하트 애니메이션 시작
         if (heart0 != null)
         {
