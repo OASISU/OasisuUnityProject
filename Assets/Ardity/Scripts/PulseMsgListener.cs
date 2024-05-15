@@ -30,7 +30,13 @@ public class PulseMsgListener : MonoBehaviour
     private bool animationPlaying = false;
 
     //VFX
-    public GameObject visualEffect;
+    public GameObject visualEffect1;
+    public GameObject visualEffect2;
+    public GameObject visualEffect3;
+    public GameObject visualEffect4;
+    public GameObject visualEffect5;
+    public GameObject visualEffect6;
+    public GameObject visualEffect7;
 
     //Cinemachine Dolly Cart
     public GameObject track;
@@ -92,6 +98,7 @@ public class PulseMsgListener : MonoBehaviour
     }
 
 
+
     public void OnMessageArrived(string msg)
     {
 
@@ -127,13 +134,20 @@ public class PulseMsgListener : MonoBehaviour
                 StartCoroutine(FadeLight(0.2f, 1f));
 
                 //VFX 시작
-                visualEffect.gameObject.SetActive(true);
+                visualEffect1.gameObject.SetActive(true);
+                visualEffect2.gameObject.SetActive(true);
+                visualEffect3.gameObject.SetActive(true);
+                visualEffect4.gameObject.SetActive(true);
+                visualEffect5.gameObject.SetActive(true);
+                visualEffect6.gameObject.SetActive(true);
+
 
                 //Cart 시작
                 track.gameObject.SetActive(true);
 
 
-                //하트 애니메이션 시작
+
+                /*//하트 애니메이션 시작
                 if (heart0 != null)
                 {
                     heart0.SetActive(true);
@@ -143,7 +157,7 @@ public class PulseMsgListener : MonoBehaviour
                         heartAnimator.SetTrigger("StartAnimation");
                         animationPlaying = true;  // 애니메이션 재생 시작을 표시
                     }
-                }
+                }*/
 
                 for (int i = 1; i <= 5; i++)
                 {
@@ -171,9 +185,37 @@ public class PulseMsgListener : MonoBehaviour
         }
     }
 
+
+
     IEnumerator CollectDataFor5Seconds()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(14);
+
+        //VFX 종료
+        visualEffect1.gameObject.SetActive(false);
+        visualEffect2.gameObject.SetActive(false);
+        visualEffect3.gameObject.SetActive(false);
+        visualEffect4.gameObject.SetActive(false);
+        visualEffect5.gameObject.SetActive(false);
+        visualEffect6.gameObject.SetActive(false);
+
+        //CART 종료
+        track.gameObject.SetActive(false);
+        //하트 애니메이션 시작
+        if (heart0 != null)
+        {
+            heart0.SetActive(true);
+            Animator heartAnimator = heart0.GetComponent<Animator>();
+            if (heartAnimator != null)
+            {
+                heartAnimator.SetTrigger("StartAnimation");
+                animationPlaying = true;  // 애니메이션 재생 시작을 표시
+            }
+        }
+
+        yield return new WaitForSeconds(10);
+
+
 
         if (heartRates.Count > 0)
         {
@@ -195,7 +237,7 @@ public class PulseMsgListener : MonoBehaviour
 
     void ShowObjectBasedOnAverage(float average)
     {
-        StartCoroutine(FadeLight(79793.78f, 1f)); // 조명을 다시 밝게 함
+        //StartCoroutine(FadeLight(79793.78f, 1f)); // 조명을 다시 밝게 함
         
         
 
@@ -269,8 +311,11 @@ public class PulseMsgListener : MonoBehaviour
 
         // 지정된 시간이 지난 후 오브젝트를 숨깁니다.
         SetObjectAndChildrenVisibility(objectName, false);
-        //VFX 종료
-        visualEffect.gameObject.SetActive(false);
+
+
+
+
+
         // 꽃 애니메이션 처음으로 되돌려놓기
         foreach (Animator animator in pulseFlowerAnimators)
         {
@@ -288,8 +333,7 @@ public class PulseMsgListener : MonoBehaviour
 
         // 지정된 시간이 지난 후 오브젝트를 숨깁니다.
         SetObjectAndChildrenVisibility(objectName, false);
-        //VFX 종료
-        visualEffect.gameObject.SetActive(false);
+
         // 꽃 애니메이션 처음으로 되돌려놓기
         foreach (Animator animator in textFlowerAnimators)
         {
