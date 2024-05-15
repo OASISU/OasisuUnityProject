@@ -132,7 +132,7 @@ public class PulseMsgListener : MonoBehaviour
                 }
 
                 // 조명을 어두워지게 함
-                StartCoroutine(FadeLight(0.2f, 1f));
+                StartCoroutine(FadeLight(0.2f, 2f));
 
                 //VFX 시작
                 visualEffect1.gameObject.SetActive(true);
@@ -191,9 +191,9 @@ public class PulseMsgListener : MonoBehaviour
 
     IEnumerator CollectDataFor5Seconds()
     {
-        yield return new WaitForSeconds(14);
+        yield return new WaitForSeconds(12);
 
-        //VFX 종료
+        /*//VFX 종료
         visualEffect1.gameObject.SetActive(false);
         visualEffect2.gameObject.SetActive(false);
         visualEffect3.gameObject.SetActive(false);
@@ -203,7 +203,7 @@ public class PulseMsgListener : MonoBehaviour
 
         //CART 종료
         track.gameObject.SetActive(false);
-        track2.gameObject.SetActive(false);
+        track2.gameObject.SetActive(false);*/
 
         //하트 애니메이션 시작
         if (heart0 != null)
@@ -217,9 +217,19 @@ public class PulseMsgListener : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5f);
 
+        //VFX 종료
+        visualEffect1.gameObject.SetActive(false);
+        visualEffect2.gameObject.SetActive(false);
+        visualEffect3.gameObject.SetActive(false);
+        visualEffect4.gameObject.SetActive(false);
+        visualEffect5.gameObject.SetActive(false);
+        //visualEffect6.gameObject.SetActive(false);
 
+        //CART 종료
+        track.gameObject.SetActive(false);
+        track2.gameObject.SetActive(false);
 
         if (heartRates.Count > 0)
         {
@@ -241,7 +251,7 @@ public class PulseMsgListener : MonoBehaviour
 
     void ShowObjectBasedOnAverage(float average)
     {
-        //StartCoroutine(FadeLight(79793.78f, 1f)); // 조명을 다시 밝게 함
+        StartCoroutine(FadeLight(79793.78f, 0.5f)); // 조명을 다시 밝게 함
         
         
 

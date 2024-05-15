@@ -2529,8 +2529,6 @@ MonoBehaviour:
   visualEffect3: {fileID: 869424663}
   visualEffect4: {fileID: 2095866160}
   visualEffect5: {fileID: 423074781}
-  visualEffect6: {fileID: 0}
-  visualEffect7: {fileID: 0}
   track: {fileID: 2141150445}
   track2: {fileID: 1165634458}
 --- !u!114 &420396408
