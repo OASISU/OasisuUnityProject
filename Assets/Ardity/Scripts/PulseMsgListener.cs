@@ -20,6 +20,8 @@ public class PulseMsgListener : MonoBehaviour
     public GameObject flower4;
     public GameObject flower5;
 
+    public RandomSideLeafMsgListener[] randomSideLeafMsgListeners;  // 배열로 변경
+
     // heart_0 게임 오브젝트
     public GameObject heart0;
 
@@ -113,6 +115,17 @@ public class PulseMsgListener : MonoBehaviour
             }
             else if (heartRate <= 10)
             {
+                foreach (var listener in randomSideLeafMsgListeners)
+                {
+                    if (listener != null)
+                    {
+                        listener.DeleteAllSpawnedFlowers();
+                    }
+                    else
+                    {
+                        Debug.LogError("One of the RandomSideLeafMsgListener instances is not assigned!");
+                    }
+                }
                 // 꽃 애니메이션 처음으로 되돌려놓기
                 foreach (Animator animator in pulseFlowerAnimators)
                 {
@@ -256,27 +269,27 @@ public class PulseMsgListener : MonoBehaviour
         
 
         int index = -1;
-        if (average < 320)
+        if (average < 400)
         {
             index = 0;
             flower1.SetActive(true);
         }
-        else if (average >= 320 && average < 340)
+        else if (average >= 400 && average < 430)
         {
             index = 1;
             flower2.SetActive(true);
         }
-        else if (average >= 340 && average < 360)
+        else if (average >= 430 && average < 470)
         {
             index = 2;
             flower3.SetActive(true);
         }
-        else if (average >= 360 && average < 380)
+        else if (average >= 470 && average < 500)
         {
             index = 3;
             flower4.SetActive(true);
         }
-        else if (average >= 380)
+        else if (average >=500)
         {
             index = 4;
             flower5.SetActive(true);

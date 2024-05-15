@@ -30,6 +30,10 @@ public class RandomSideLeafMsgListener : MonoBehaviour
 
     //꽃 오브젝트
     public GameObject[] FlowerPrefabs;
+    public List<GameObject> spawnedFlowers = new List<GameObject>();  // 생성된 꽃을 저장할 리스트
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,14 +56,18 @@ public class RandomSideLeafMsgListener : MonoBehaviour
 
     IEnumerator RandomRespawn_Coroutine()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(1f);
-            int i = Random.Range(0, 4);
-            // 생성 위치 부분에 위에서 만든 함수 Return_RandomPosition() 함수 대입
-            GameObject instantCapsul = Instantiate(FlowerPrefabs[i], Return_RandomPosition(), Quaternion.identity);
-        }
+        yield return new WaitForSeconds(1f); // 1초 기다린 후에 실행
+        int i = Random.Range(0, FlowerPrefabs.Length); // 꽃 프리팹 배열의 길이를 기준으로 랜덤 인덱스 생성
+        GameObject flower = Instantiate(FlowerPrefabs[i], Return_RandomPosition(), Quaternion.identity);
+        spawnedFlowers.Add(flower); // 생성된 꽃을 리스트에 추가
     }
-
+    public void DeleteAllSpawnedFlowers()
+    {
+        foreach (GameObject flower in spawnedFlowers)
+        {
+            Destroy(flower);
+        }
+        spawnedFlowers.Clear();  // 리스트를 비웁니다.
+    }
 
 }
