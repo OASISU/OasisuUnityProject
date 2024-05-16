@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM19
+  portName: COM5
   baudRate: 9600
   messageListener: {fileID: 99406829}
   reconnectionDelay: 1000
@@ -1408,7 +1408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM11
+  portName: COM1
   baudRate: 9600
   messageListener: {fileID: 223551122}
   reconnectionDelay: 1000
@@ -2760,7 +2760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM13
+  portName: COM7
   baudRate: 9600
   messageListener: {fileID: 420396405}
   reconnectionDelay: 1000
@@ -6539,7 +6539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM9
+  portName: COM3
   baudRate: 9600
   messageListener: {fileID: 1049102859}
   reconnectionDelay: 1000
@@ -9944,7 +9944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM10
+  portName: COM8
   baudRate: 9600
   messageListener: {fileID: 1708742903}
   reconnectionDelay: 1000
@@ -12457,7 +12457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portName: COM8
+  portName: COM6
   baudRate: 9600
   messageListener: {fileID: 1919256436}
   reconnectionDelay: 1000
