@@ -190,6 +190,7 @@ public class PulseMsgListener : MonoBehaviour
                 isCollectingData = true;
                 heartRates.Clear();
                 heartRates.Add(heartRate);
+                GetComponent<AudioSource>().Play();
                 StartCoroutine(CollectDataFor5Seconds());
 
             }
@@ -204,7 +205,7 @@ public class PulseMsgListener : MonoBehaviour
 
     IEnumerator CollectDataFor5Seconds()
     {
-        yield return new WaitForSeconds(12);
+        yield return new WaitForSeconds(11);
 
         /*//VFX Á¾·á
         visualEffect1.gameObject.SetActive(false);
@@ -222,6 +223,7 @@ public class PulseMsgListener : MonoBehaviour
         if (heart0 != null)
         {
             heart0.SetActive(true);
+            
             Animator heartAnimator = heart0.GetComponent<Animator>();
             if (heartAnimator != null)
             {
