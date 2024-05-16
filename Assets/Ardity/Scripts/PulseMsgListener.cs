@@ -271,27 +271,27 @@ public class PulseMsgListener : MonoBehaviour
         
 
         int index = -1;
-        if (average < 400)
+        if (average < 420)
         {
             index = 0;
             flower1.SetActive(true);
         }
-        else if (average >= 400 && average < 430)
+        else if (average >= 420 && average < 431)
         {
             index = 1;
             flower2.SetActive(true);
         }
-        else if (average >= 430 && average < 470)
+        else if (average >= 431 && average < 441)
         {
             index = 2;
             flower3.SetActive(true);
         }
-        else if (average >= 470 && average < 500)
+        else if (average >= 441 && average < 451)
         {
             index = 3;
             flower4.SetActive(true);
         }
-        else if (average >=500)
+        else if (average >=451)
         {
             index = 4;
             flower5.SetActive(true);
