@@ -304,8 +304,8 @@ public class PulseMsgListener : MonoBehaviour
             SetObjectAndChildrenVisibility("PulseFlower (" + (index + 1) + ")", true);
             SetObjectAndChildrenVisibility("FlowerText (" + (index + 1) + ")", true);
 
-            StartCoroutine(HideObjectAfterTime("PulseFlower (" + (index + 1) + ")", 30));
-            StartCoroutine(HideObjectAfterTime2("FlowerText (" + (index + 1) + ")", 30));
+            StartCoroutine(HideObjectAfterTime("PulseFlower (" + (index + 1) + ")", 10));
+            StartCoroutine(HideObjectAfterTime2("FlowerText (" + (index + 1) + ")", 10));
 
         }
     }
